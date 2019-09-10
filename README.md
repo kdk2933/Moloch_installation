@@ -1,3 +1,4 @@
+https://raw.githubusercontent.com/aol/moloch/master/viewer/public/moloch_155.png
 # Moloch_installation
 Moloch is an open source, large scale, full packet capturing, indexing, and database system.    
 Moloch is a large scale, open source, indexed packet capture and search system.
