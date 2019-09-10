@@ -7,3 +7,23 @@ Moloch is built to be deployed across many systems and can scale to handle tens 
 
 I have placed the required files here https://mega.nz/#!tI0znQxQ place it in a folder in your centos /home/user or somewhere.
 
+
+Openssl_1.0.2 rpm here https://rpmfind.net/linux/rpm2html/search.php?query=libcrypto.so.10(OPENSSL_1.0.2) 
+
+
+
+
+--------------------------------------
+
+ How to install HTOP
+
+    Log into your server with root access via SSH.
+    Add the htop repository to your servers repo list.
+    wget dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-11.noarch.rpm
+    rpm -ihv epel-release-7-11.noarch.rpm
+    Install htop.
+    yum install htop
+    Once the installation is complete you may just run the command below to get started.
+    htop
+
+    Once you have Htop up and running you should see something similar the image to the right. As you can see in the image to the right HTOP displays how many cores your computer/server has while also including the load on each core. Below your CPU information you can see the RAM being used and the total amount. You can also run the command “man htop” and it will provide you with more options while running this tool.
