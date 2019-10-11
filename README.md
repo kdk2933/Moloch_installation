@@ -5,13 +5,14 @@ Moloch augments your current security infrastructure to store and index network 
 
 Moloch is built to be deployed across many systems and can scale to handle tens of gigabits/sec of traffic. PCAP retention is based on available sensor disk space. Metadata retention is based on the Elasticsearch cluster scale. Both can be increased at anytime and are under your complete control.
 
-I have placed the required files here https://mega.nz/#!tI0znQxQ place it in a folder in your centos /home/user or somewhere.
+I have placed the required files here https://mega.nz/#!tI0znQxQ and the decryption key is 
 
+-zS1chvKBVGBp_ZN6McybBolDU5dFfiIRkoH5djRFtI
 
+place it in a file in your centos 7.5 /home/user or somewhere and extract.
+
+dependency rpm for the installtion.
 Openssl_1.0.2 rpm here https://rpmfind.net/linux/rpm2html/search.php?query=libcrypto.so.10(OPENSSL_1.0.2) 
-
-
-
 
 --------------------------------------
 
